@@ -1,0 +1,175 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title-section {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-item-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header,
+main,
+.footer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/****** HEADER  */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  height: 60px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header li {
+  margin-left: 30px;
+}
+
+/****** ABOUT  */
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+.about__content {
+  margin-left: 30px;
+}
+
+.about__text {
+  line-height: 1.4;
+}
+
+.about__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.about .fab {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.about .fab--linkedin {
+  background-color: #007bb5;
+}
+
+.about .fab--github {
+  background-color: #4078c0;
+}
+
+.about .fab--twitter {
+  background-color: #55acee;
+}
+
+.about .fab--skype {
+  background-color: #00aff0;
+}
+
+/****** PORTAFOLIO  */
+/****** CONTACT  */
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__right__tag {
+  font-weight: bold;
+}
+
+.contact__right__text {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.contact .form-group label {
+  display: block;
+  margin-top: 15px;
+}
+
+/****** FOOTER  */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  color: #fff;
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */

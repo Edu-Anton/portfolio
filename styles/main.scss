@@ -1,0 +1,133 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-section {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.d-flex {
+    display: flex;
+}
+.justify-space-between {
+    justify-content: space-between
+}
+.align-item-center {
+    align-items: center
+}
+
+.header,
+main,
+.footer {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/****** HEADER  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        margin-left: 30px;
+    }
+}
+
+/****** ABOUT  */
+.about {
+    &__inner {
+        display: flex;
+        justify-content: space-between
+    }
+    img {
+        border-radius: 50%;
+    }
+    &__content {
+        margin-left: 30px;
+    }
+    &__text {
+        line-height: 1.4
+    }
+    &__redes {
+        display: flex;
+        margin-top: 30px;
+    }
+    .fab {
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        &--linkedin {
+            background-color: #007bb5;
+        }
+        &--github {
+            background-color: #4078c0;
+        }
+        &--twitter {
+            background-color: #55acee;
+        }
+        &--skype {
+            background-color: #00aff0;
+        }
+    }
+} 
+
+/****** PORTAFOLIO  */
+.portafolio {
+
+}
+
+/****** CONTACT  */
+.contact {
+    display: flex;
+    justify-content: space-between;
+
+
+    
+    &__right__tag {
+        font-weight: bold;
+    }
+    &__right__text {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .form-group {
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+    }
+}
+/****** FOOTER  */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    background-color: black;
+}

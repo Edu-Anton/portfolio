@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/a631fbff5c.js"></script>
 </head>
 <body>
-    <header>
-        <a href="#"><Eduardo Calderon/></a>
-        <ul>
+    <header class="header">
+
+        <a class="header__title" href="#">&#60;Eduardo Calderon/&#62;</a>
+        <ul class="header__nav">
             <li><a href="#">Sobre mí</a></li>
             <li><a href="#">Portafolio</a></li>
             <li><a href="#">Mis habilidades</a></li>
@@ -18,25 +24,25 @@
     </header>
     <main>
         <section class="about">
-            <h2>|Sobre mí</h2>
+            <h2 class="title-section">|Sobre mí</h2>
             <div class="about__inner">
                 <figure>
-                    <img src="" alt="">
+                    <img src="http://lorempixel.com/216/216/people/" alt="">
                 </figure>
-                <div class="content">
-                    <p>Hola, soy Eduardo Calderón, Desarrollador Full Stack, actualmente estoy estudiando en el bootcamp CodiGO. Me apasiona la programación, el diseño UI y la experiencia de usuario y todo lo relacionado a la tecnología. Muchas gracias por visitar mi página. Puedes encontrar mis publicaciones en mis redes sociales.</p>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                <div class="about__content">
+                    <p class="about__text">Hola, soy Eduardo Calderón, Desarrollador Full Stack, actualmente estoy estudiando en el bootcamp CodiGO. Me apasiona la programación, el diseño UI y la experiencia de usuario y todo lo relacionado a la tecnología. Muchas gracias por visitar mi página. Puedes encontrar mis publicaciones en mis redes sociales.</p>
+                    <ul class="about__redes">
+                        <li><a href="#"><i class="fab fa-linkedin-in fab--linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github-alt fab--github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter fab--twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-skype fab--skype"></i></a></li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <section class="portafolio">
-            <h2>|Portafolio</h2>
+            <h2 class="title-section">|Portafolio</h2>
             <div class="portafolio__images-wrap">
                 <img src="" alt="" class="portafolio__img">
                 <img src="" alt="" class="portafolio__img">
@@ -69,32 +75,43 @@
 
         <section class="contact">
             <div class="contact__left">
-                <h2>|Contáctame</h2>
+                <h2 class="title-section">|Contáctame</h2>
                 <form action="">
-                    <label for="">Name</label>
-                    <input type="text">
-                    <label for="">Apellido</label>
-                    <input type="text">
-                    <label for="">Número de Contacto</label>
-                    <input type="text">
-                    <label for="">Correo</label>
-                    <input type="text">
-                    <label for="">Déjame un mensaje</label>
-                    <input type="text">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Número de Contacto</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Correo</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Déjame un mensaje</label>
+                        <input type="text">
+                    </div>
+        
                     <button type="submit">Enviar</button>
                 </form>
             </div>
             <div class="contact__right">
                 <p class="contact__right__tag">Dirección</p>
-                <p>Urb. Parque de MOnterrico Mz. A Lote 43 - Salamanca (Ate-Vitarte)</p>
+                <p class="contact__right__text">Urb. Parque de MOnterrico Mz. A Lote 43 - Salamanca (Ate-Vitarte)</p>
                 <p class="contact__right__tag">Teléfono</p>
-                <p>941404447</p>
+                <p class="contact__right__text">941404447</p>
                 <p class="contact__right__tag">Email</p>
-                <p>eduardo1acc@gmail.com</p>
+                <p class="contact__right__text">eduardo1acc@gmail.com</p>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <span>Todos los derechos reservados</span>
         <span>Desarrollado por codiGO</span>
     </footer>
