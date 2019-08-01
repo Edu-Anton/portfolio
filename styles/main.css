@@ -146,6 +146,7 @@ Sobre mi
 
 .about-me ul {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .about-me li {
